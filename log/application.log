@@ -1,0 +1,645 @@
+2019-10-07 21:25:09 INFO  App:38 - Initiazing family tree...
+2019-10-07 21:25:09 INFO  FamilyManager:95 - Added King to the family tree with details: [King Shan : {Id:1 Gender:MALE}]
+2019-10-07 21:25:09 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.InvalidGenderException: Cannot add a child with father's name
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:151)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:25:09 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 2 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:25:09 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 2 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:25:09 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 2 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:25:09 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 2 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:25:09 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 2 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:25:09 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.InvalidGenderException: Cannot add a child with father's name
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:151)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:25:09 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.InvalidGenderException: Cannot add a child with father's name
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:151)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:25:09 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.InvalidGenderException: Cannot add a child with father's name
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:151)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:25:09 INFO  FamilyManager:189 - Added relation of {WIFE->HUSBAND} between {<7:Satya> & <11:Vyan>}.
+2019-10-07 21:25:09 INFO  FamilyManager:198 - Added relation of {HUSBAND->WIFE} between {<11:Vyan> & <7:Satya>}.
+2019-10-07 21:25:09 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 8 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:25:09 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 8 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:25:09 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 8 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:25:09 INFO  FamilyManager:189 - Added relation of {WIFE->HUSBAND} between {<12:Dritha> & <15:Jaya>}.
+2019-10-07 21:25:09 INFO  FamilyManager:198 - Added relation of {HUSBAND->WIFE} between {<15:Jaya> & <12:Dritha>}.
+2019-10-07 21:25:09 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 9 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:25:09 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 9 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:25:09 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 10 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:25:09 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 10 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:25:09 INFO  FamilyManager:189 - Added relation of {WIFE->HUSBAND} between {<18:Jnki> & <20:Arit>}.
+2019-10-07 21:25:09 INFO  FamilyManager:198 - Added relation of {HUSBAND->WIFE} between {<20:Arit> & <18:Jnki>}.
+2019-10-07 21:25:09 INFO  FamilyManager:189 - Added relation of {SON->MOTHER} between {<7:Satya> & <21:Asva>}.
+2019-10-07 21:25:09 INFO  FamilyManager:198 - Added relation of {MOTHER->SON} between {<21:Asva> & <7:Satya>}.
+2019-10-07 21:25:09 INFO  FamilyManager:189 - Added relation of {SON->MOTHER} between {<7:Satya> & <22:Vyas>}.
+2019-10-07 21:25:09 INFO  FamilyManager:198 - Added relation of {MOTHER->SON} between {<22:Vyas> & <7:Satya>}.
+2019-10-07 21:25:09 INFO  FamilyManager:189 - Added relation of {DAUGHTER->MOTHER} between {<7:Satya> & <23:Atya>}.
+2019-10-07 21:25:09 INFO  FamilyManager:198 - Added relation of {MOTHER->DAUGHTER} between {<23:Atya> & <7:Satya>}.
+2019-10-07 21:25:09 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.InvalidGenderException: Cannot add a child with father's name
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:151)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:25:09 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.InvalidGenderException: Cannot add a child with father's name
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:151)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:25:09 INFO  FamilyManager:189 - Added relation of {SON->MOTHER} between {<12:Dritha> & <26:Yodhan>}.
+2019-10-07 21:25:09 INFO  FamilyManager:198 - Added relation of {MOTHER->SON} between {<26:Yodhan> & <12:Dritha>}.
+2019-10-07 21:25:09 INFO  FamilyManager:189 - Added relation of {SON->MOTHER} between {<18:Jnki> & <27:Laki>}.
+2019-10-07 21:25:09 INFO  FamilyManager:198 - Added relation of {MOTHER->SON} between {<27:Laki> & <18:Jnki>}.
+2019-10-07 21:25:09 INFO  FamilyManager:189 - Added relation of {DAUGHTER->MOTHER} between {<18:Jnki> & <28:Lavnya>}.
+2019-10-07 21:25:09 INFO  FamilyManager:198 - Added relation of {MOTHER->DAUGHTER} between {<28:Lavnya> & <18:Jnki>}.
+2019-10-07 21:25:09 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 24 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:25:09 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 25 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:25:09 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 25 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:25:09 INFO  FamilyTree:86 - =================Starting Printing Family Tree=================
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [1 King Shan] => 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [2 Queen Anga] => 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [3 Chit] => 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [4 Ish] => 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [5 Vich] => 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [6 Aras] => 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [7 Satya] => [11 Vyan WIFE] [21 Asva SON] [22 Vyas SON] [23 Atya DAUGHTER] 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [8 Amba] => 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [9 Lika] => 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [10 Chitra] => 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [11 Vyan] => [7 Satya HUSBAND] 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [12 Dritha] => [15 Jaya WIFE] [26 Yodhan SON] 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [13 Tritha] => 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [14 Vritha] => 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [15 Jaya] => [12 Dritha HUSBAND] 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [16 Vila] => 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [17 Chika] => 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [18 Jnki] => [20 Arit WIFE] [27 Laki SON] [28 Lavnya DAUGHTER] 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [19 Ahit] => 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [20 Arit] => [18 Jnki HUSBAND] 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [21 Asva] => [7 Satya MOTHER] 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [22 Vyas] => [7 Satya MOTHER] 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [23 Atya] => [7 Satya MOTHER] 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [24 Satvy] => 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [25 Krpi] => 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [26 Yodhan] => [12 Dritha MOTHER] 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [27 Laki] => [18 Jnki MOTHER] 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [28 Lavnya] => [18 Jnki MOTHER] 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [29 Vasa] => 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [30 Kriya] => 
+2019-10-07 21:25:09 INFO  FamilyTree:98 - [31 Krithi] => 
+2019-10-07 21:25:09 INFO  FamilyTree:100 - =================Finished Printing Family Tree=================
+2019-10-07 21:25:09 INFO  App:40 - Family tree initialised.
+2019-10-07 21:25:09 INFO  App:57 - Adding child with following params: Chitra Aria Female
+2019-10-07 21:25:09 ERROR App:71 - Invalid specified relationship:
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 10 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyTree.addChild(FamilyTree.java:128)
+	at com.practice.familymodel.App.main(App.java:58)
+2019-10-07 21:25:09 INFO  App:77 - 
+2019-10-07 21:25:09 ERROR App:93 - Invalid specified relationship:
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Relationship not found in the family tree
+	at com.practice.familymodel.services.RelationshipFinder.findMaternalAunt(RelationshipFinder.java:217)
+	at com.practice.familymodel.services.RelationshipFinder.findRelative(RelationshipFinder.java:91)
+	at com.practice.familymodel.services.RelationshipFinder.findRelative(RelationshipFinder.java:57)
+	at com.practice.familymodel.App.main(App.java:84)
+2019-10-07 21:25:09 ERROR App:93 - Invalid specified relationship:
+com.practice.familymodel.exceptions.RelationshipNotFoundException: No parent found for the person with id: 32
+	at com.practice.familymodel.services.RelationshipFinder.findSibling(RelationshipFinder.java:327)
+	at com.practice.familymodel.services.RelationshipFinder.findRelative(RelationshipFinder.java:111)
+	at com.practice.familymodel.services.RelationshipFinder.findRelative(RelationshipFinder.java:57)
+	at com.practice.familymodel.App.main(App.java:84)
+2019-10-07 21:26:04 INFO  App:38 - Initiazing family tree...
+2019-10-07 21:26:04 INFO  FamilyManager:95 - Added King to the family tree with details: [King Shan : {Id:1 Gender:MALE}]
+2019-10-07 21:26:04 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.InvalidGenderException: Cannot add a child with father's name
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:151)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:04 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 2 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:04 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 2 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:04 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 2 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:04 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 2 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:04 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 2 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:04 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.InvalidGenderException: Cannot add a child with father's name
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:151)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:04 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.InvalidGenderException: Cannot add a child with father's name
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:151)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:04 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.InvalidGenderException: Cannot add a child with father's name
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:151)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:04 INFO  FamilyManager:189 - Added relation of {WIFE->HUSBAND} between {<7:Satya> & <11:Vyan>}.
+2019-10-07 21:26:04 INFO  FamilyManager:198 - Added relation of {HUSBAND->WIFE} between {<11:Vyan> & <7:Satya>}.
+2019-10-07 21:26:04 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 8 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:04 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 8 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:04 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 8 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:04 INFO  FamilyManager:189 - Added relation of {WIFE->HUSBAND} between {<12:Dritha> & <15:Jaya>}.
+2019-10-07 21:26:04 INFO  FamilyManager:198 - Added relation of {HUSBAND->WIFE} between {<15:Jaya> & <12:Dritha>}.
+2019-10-07 21:26:04 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 9 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:04 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 9 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:04 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 10 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:04 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 10 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:04 INFO  FamilyManager:189 - Added relation of {WIFE->HUSBAND} between {<18:Jnki> & <20:Arit>}.
+2019-10-07 21:26:04 INFO  FamilyManager:198 - Added relation of {HUSBAND->WIFE} between {<20:Arit> & <18:Jnki>}.
+2019-10-07 21:26:04 INFO  FamilyManager:189 - Added relation of {SON->MOTHER} between {<7:Satya> & <21:Asva>}.
+2019-10-07 21:26:04 INFO  FamilyManager:198 - Added relation of {MOTHER->SON} between {<21:Asva> & <7:Satya>}.
+2019-10-07 21:26:04 INFO  FamilyManager:189 - Added relation of {SON->MOTHER} between {<7:Satya> & <22:Vyas>}.
+2019-10-07 21:26:04 INFO  FamilyManager:198 - Added relation of {MOTHER->SON} between {<22:Vyas> & <7:Satya>}.
+2019-10-07 21:26:04 INFO  FamilyManager:189 - Added relation of {DAUGHTER->MOTHER} between {<7:Satya> & <23:Atya>}.
+2019-10-07 21:26:04 INFO  FamilyManager:198 - Added relation of {MOTHER->DAUGHTER} between {<23:Atya> & <7:Satya>}.
+2019-10-07 21:26:04 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.InvalidGenderException: Cannot add a child with father's name
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:151)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:04 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.InvalidGenderException: Cannot add a child with father's name
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:151)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:04 INFO  FamilyManager:189 - Added relation of {SON->MOTHER} between {<12:Dritha> & <26:Yodhan>}.
+2019-10-07 21:26:04 INFO  FamilyManager:198 - Added relation of {MOTHER->SON} between {<26:Yodhan> & <12:Dritha>}.
+2019-10-07 21:26:04 INFO  FamilyManager:189 - Added relation of {SON->MOTHER} between {<18:Jnki> & <27:Laki>}.
+2019-10-07 21:26:04 INFO  FamilyManager:198 - Added relation of {MOTHER->SON} between {<27:Laki> & <18:Jnki>}.
+2019-10-07 21:26:04 INFO  FamilyManager:189 - Added relation of {DAUGHTER->MOTHER} between {<18:Jnki> & <28:Lavnya>}.
+2019-10-07 21:26:04 INFO  FamilyManager:198 - Added relation of {MOTHER->DAUGHTER} between {<28:Lavnya> & <18:Jnki>}.
+2019-10-07 21:26:04 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 24 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:04 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 25 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:04 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 25 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:04 INFO  FamilyTree:86 - =================Starting Printing Family Tree=================
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [1 King Shan] => 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [2 Queen Anga] => 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [3 Chit] => 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [4 Ish] => 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [5 Vich] => 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [6 Aras] => 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [7 Satya] => [11 Vyan WIFE] [21 Asva SON] [22 Vyas SON] [23 Atya DAUGHTER] 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [8 Amba] => 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [9 Lika] => 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [10 Chitra] => 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [11 Vyan] => [7 Satya HUSBAND] 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [12 Dritha] => [15 Jaya WIFE] [26 Yodhan SON] 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [13 Tritha] => 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [14 Vritha] => 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [15 Jaya] => [12 Dritha HUSBAND] 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [16 Vila] => 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [17 Chika] => 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [18 Jnki] => [20 Arit WIFE] [27 Laki SON] [28 Lavnya DAUGHTER] 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [19 Ahit] => 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [20 Arit] => [18 Jnki HUSBAND] 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [21 Asva] => [7 Satya MOTHER] 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [22 Vyas] => [7 Satya MOTHER] 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [23 Atya] => [7 Satya MOTHER] 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [24 Satvy] => 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [25 Krpi] => 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [26 Yodhan] => [12 Dritha MOTHER] 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [27 Laki] => [18 Jnki MOTHER] 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [28 Lavnya] => [18 Jnki MOTHER] 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [29 Vasa] => 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [30 Kriya] => 
+2019-10-07 21:26:04 INFO  FamilyTree:98 - [31 Krithi] => 
+2019-10-07 21:26:04 INFO  FamilyTree:100 - =================Finished Printing Family Tree=================
+2019-10-07 21:26:04 INFO  App:40 - Family tree initialised.
+2019-10-07 21:26:04 INFO  App:57 - Adding child with following params: Chitra Aria Female
+2019-10-07 21:26:04 ERROR App:71 - Invalid specified relationship:
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 10 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyTree.addChild(FamilyTree.java:128)
+	at com.practice.familymodel.App.main(App.java:58)
+2019-10-07 21:26:04 INFO  App:77 - 
+2019-10-07 21:26:04 ERROR App:93 - Invalid specified relationship:
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Relationship not found in the family tree
+	at com.practice.familymodel.services.RelationshipFinder.findMaternalAunt(RelationshipFinder.java:217)
+	at com.practice.familymodel.services.RelationshipFinder.findRelative(RelationshipFinder.java:91)
+	at com.practice.familymodel.services.RelationshipFinder.findRelative(RelationshipFinder.java:57)
+	at com.practice.familymodel.App.main(App.java:84)
+2019-10-07 21:26:04 ERROR App:93 - Invalid specified relationship:
+com.practice.familymodel.exceptions.RelationshipNotFoundException: No parent found for the person with id: 32
+	at com.practice.familymodel.services.RelationshipFinder.findSibling(RelationshipFinder.java:327)
+	at com.practice.familymodel.services.RelationshipFinder.findRelative(RelationshipFinder.java:111)
+	at com.practice.familymodel.services.RelationshipFinder.findRelative(RelationshipFinder.java:57)
+	at com.practice.familymodel.App.main(App.java:84)
+2019-10-07 21:26:40 INFO  App:38 - Initiazing family tree...
+2019-10-07 21:26:40 INFO  FamilyManager:95 - Added King to the family tree with details: [King Shan : {Id:1 Gender:MALE}]
+2019-10-07 21:26:40 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.InvalidGenderException: Cannot add a child with father's name
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:151)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:40 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 2 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:40 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 2 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:40 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 2 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:40 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 2 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:40 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 2 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:40 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.InvalidGenderException: Cannot add a child with father's name
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:151)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:40 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.InvalidGenderException: Cannot add a child with father's name
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:151)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:40 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.InvalidGenderException: Cannot add a child with father's name
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:151)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:40 INFO  FamilyManager:189 - Added relation of {WIFE->HUSBAND} between {<7:Satya> & <11:Vyan>}.
+2019-10-07 21:26:40 INFO  FamilyManager:198 - Added relation of {HUSBAND->WIFE} between {<11:Vyan> & <7:Satya>}.
+2019-10-07 21:26:40 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 8 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:40 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 8 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:40 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 8 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:40 INFO  FamilyManager:189 - Added relation of {WIFE->HUSBAND} between {<12:Dritha> & <15:Jaya>}.
+2019-10-07 21:26:40 INFO  FamilyManager:198 - Added relation of {HUSBAND->WIFE} between {<15:Jaya> & <12:Dritha>}.
+2019-10-07 21:26:40 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 9 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:40 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 9 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:40 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 10 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:40 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 10 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:40 INFO  FamilyManager:189 - Added relation of {WIFE->HUSBAND} between {<18:Jnki> & <20:Arit>}.
+2019-10-07 21:26:40 INFO  FamilyManager:198 - Added relation of {HUSBAND->WIFE} between {<20:Arit> & <18:Jnki>}.
+2019-10-07 21:26:40 INFO  FamilyManager:189 - Added relation of {SON->MOTHER} between {<7:Satya> & <21:Asva>}.
+2019-10-07 21:26:40 INFO  FamilyManager:198 - Added relation of {MOTHER->SON} between {<21:Asva> & <7:Satya>}.
+2019-10-07 21:26:40 INFO  FamilyManager:189 - Added relation of {SON->MOTHER} between {<7:Satya> & <22:Vyas>}.
+2019-10-07 21:26:40 INFO  FamilyManager:198 - Added relation of {MOTHER->SON} between {<22:Vyas> & <7:Satya>}.
+2019-10-07 21:26:40 INFO  FamilyManager:189 - Added relation of {DAUGHTER->MOTHER} between {<7:Satya> & <23:Atya>}.
+2019-10-07 21:26:40 INFO  FamilyManager:198 - Added relation of {MOTHER->DAUGHTER} between {<23:Atya> & <7:Satya>}.
+2019-10-07 21:26:40 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.InvalidGenderException: Cannot add a child with father's name
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:151)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:40 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.InvalidGenderException: Cannot add a child with father's name
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:151)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:40 INFO  FamilyManager:189 - Added relation of {SON->MOTHER} between {<12:Dritha> & <26:Yodhan>}.
+2019-10-07 21:26:40 INFO  FamilyManager:198 - Added relation of {MOTHER->SON} between {<26:Yodhan> & <12:Dritha>}.
+2019-10-07 21:26:40 INFO  FamilyManager:189 - Added relation of {SON->MOTHER} between {<18:Jnki> & <27:Laki>}.
+2019-10-07 21:26:40 INFO  FamilyManager:198 - Added relation of {MOTHER->SON} between {<27:Laki> & <18:Jnki>}.
+2019-10-07 21:26:40 INFO  FamilyManager:189 - Added relation of {DAUGHTER->MOTHER} between {<18:Jnki> & <28:Lavnya>}.
+2019-10-07 21:26:40 INFO  FamilyManager:198 - Added relation of {MOTHER->DAUGHTER} between {<28:Lavnya> & <18:Jnki>}.
+2019-10-07 21:26:40 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 24 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:40 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 25 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:40 ERROR FamilyManager:121 - Some exception occured
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 25 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyManager.InitialiseTree(FamilyManager.java:112)
+	at com.practice.familymodel.services.FamilyTree.initializeTree(FamilyTree.java:70)
+	at com.practice.familymodel.App.main(App.java:39)
+2019-10-07 21:26:40 INFO  FamilyTree:86 - =================Starting Printing Family Tree=================
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [1 King Shan] => 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [2 Queen Anga] => 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [3 Chit] => 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [4 Ish] => 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [5 Vich] => 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [6 Aras] => 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [7 Satya] => [11 Vyan WIFE] [21 Asva SON] [22 Vyas SON] [23 Atya DAUGHTER] 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [8 Amba] => 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [9 Lika] => 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [10 Chitra] => 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [11 Vyan] => [7 Satya HUSBAND] 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [12 Dritha] => [15 Jaya WIFE] [26 Yodhan SON] 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [13 Tritha] => 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [14 Vritha] => 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [15 Jaya] => [12 Dritha HUSBAND] 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [16 Vila] => 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [17 Chika] => 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [18 Jnki] => [20 Arit WIFE] [27 Laki SON] [28 Lavnya DAUGHTER] 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [19 Ahit] => 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [20 Arit] => [18 Jnki HUSBAND] 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [21 Asva] => [7 Satya MOTHER] 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [22 Vyas] => [7 Satya MOTHER] 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [23 Atya] => [7 Satya MOTHER] 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [24 Satvy] => 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [25 Krpi] => 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [26 Yodhan] => [12 Dritha MOTHER] 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [27 Laki] => [18 Jnki MOTHER] 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [28 Lavnya] => [18 Jnki MOTHER] 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [29 Vasa] => 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [30 Kriya] => 
+2019-10-07 21:26:40 INFO  FamilyTree:98 - [31 Krithi] => 
+2019-10-07 21:26:40 INFO  FamilyTree:100 - =================Finished Printing Family Tree=================
+2019-10-07 21:26:40 INFO  App:40 - Family tree initialised.
+2019-10-07 21:26:40 INFO  App:57 - Adding child with following params: Chitra Aria Female
+2019-10-07 21:26:40 ERROR App:71 - Invalid specified relationship:
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Person with id: 10 is not married.
+	at com.practice.familymodel.services.FamilyManager.getHusband(FamilyManager.java:219)
+	at com.practice.familymodel.services.FamilyManager.addMemberToFamilyTree(FamilyManager.java:154)
+	at com.practice.familymodel.services.FamilyTree.addChild(FamilyTree.java:128)
+	at com.practice.familymodel.App.main(App.java:58)
+2019-10-07 21:26:40 INFO  App:77 - 
+2019-10-07 21:26:40 ERROR App:93 - Invalid specified relationship:
+com.practice.familymodel.exceptions.RelationshipNotFoundException: Relationship not found in the family tree
+	at com.practice.familymodel.services.RelationshipFinder.findMaternalAunt(RelationshipFinder.java:217)
+	at com.practice.familymodel.services.RelationshipFinder.findRelative(RelationshipFinder.java:91)
+	at com.practice.familymodel.services.RelationshipFinder.findRelative(RelationshipFinder.java:57)
+	at com.practice.familymodel.App.main(App.java:84)
+2019-10-07 21:26:40 ERROR App:93 - Invalid specified relationship:
+com.practice.familymodel.exceptions.RelationshipNotFoundException: No parent found for the person with id: 32
+	at com.practice.familymodel.services.RelationshipFinder.findSibling(RelationshipFinder.java:327)
+	at com.practice.familymodel.services.RelationshipFinder.findRelative(RelationshipFinder.java:111)
+	at com.practice.familymodel.services.RelationshipFinder.findRelative(RelationshipFinder.java:57)
+	at com.practice.familymodel.App.main(App.java:84)

@@ -1,0 +1,32 @@
+<King Shan, M>
+<Queen Anga,F> <King Shan> <1>
+<Chit, M> <Queen Anga> <3>
+<Ish, M> <Queen Anga> <3>
+<Vich, M> <Queen Anga> <3>
+<Aras, M> <Queen Anga> <3>
+<Satya, F> <Queen Anga> <4>
+<Amba, F> <Chit> <1>
+<Lika, F> <Vich> <1>
+<Chitra, F> <Aras> <1>
+<Vyan, M> <Satya> <2>
+<Dritha, F> <Amba> <4>
+<Tritha, F> <Amba> <4>
+<Vritha, M> <Amba> <3>
+<Jaya, M> <Dritha> <2>
+<Vila, F> <Lika> <4>
+<Chika, F> <Lika> <4>
+<Jnki, F> <Chitra> <4>
+<Ahit, M> <Chitra> <3>
+<Arit, M> <Jnki> <2>
+<Asva, M> <Satya> <3>
+<Vyas, M> <Satya> <3>
+<Atya, F> <Satya> <4>
+<Satvy, F> <Asva> <1>
+<Krpi, F> <Vyas> <1>
+<Yodhan, M> <Dritha> <3>
+<Laki, M> <Jnki> <3>
+<Lavnya, F> <Jnki> <4>
+<Vasa, M> <Satvy> <3>
+<Kriya, M> <Krpi> <3>
+<Krithi, F> <Krpi> <4>
+
